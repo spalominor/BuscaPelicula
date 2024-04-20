@@ -8,7 +8,7 @@ from whoosh.index import open_dir
 st.header("Motor de búsqueda de películas")
 
 # Mostrar un mensaje de bienvenida
-st.write("""Ingrese el nombre de una película (hecha entre 1995 y 2017) 
+st.write("""Ingrese el nombre de una película (hasta 2017) 
          para buscar información sobre ella.""")
 
 # Definir los campos en los que deseas buscar coincidencias
