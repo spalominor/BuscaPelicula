@@ -1,4 +1,4 @@
-# [BuscaTuPelicula](https://buscatupelicula.streamlit.app/)
+# [BuscaTuPelicula 🔍](https://buscatupelicula.streamlit.app/)
 
 ## ¿Qué es? 🤔
 El Motor de Búsqueda de Películas es una herramienta poderosa diseñada para facilitar la búsqueda y el descubrimiento de películas dentro de una extensa base de datos de más de 42,000 películas. Desarrollado utilizando Python, este proyecto aprovecha las bibliotecas Pandas y Whoosh para ofrecer una experiencia de búsqueda eficiente y precisa.
