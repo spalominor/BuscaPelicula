@@ -13,6 +13,7 @@ El Motor de Búsqueda de Películas es una herramienta poderosa diseñada para f
 - Python: Lenguaje de programación principal utilizado para el desarrollo del proyecto.
 - Pandas: Biblioteca de Python utilizada para la manipulación y análisis de datos.
 - Whoosh: Motor de búsqueda de texto completo implementado para proporcionar funcionalidades de búsqueda avanzadas.
+- Streamlit: Biblioteca de Python y servicio web para el diseño y desarrollo de aplicaciones.
 
 ## Futuras Mejoras 🔜
 1. **Registro de usuarios** Implementar el registro de usuarios para almacenar sus gustos, preferencias, e información de otras funcionalidades.
