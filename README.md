@@ -21,5 +21,11 @@ El Motor de Búsqueda de Películas es una herramienta poderosa diseñada para f
 3. **Ampliación de la base de datos** Obtener datos de las películas en otros idiomas y conseguir datos más recientes.
 4. **Personalización:** Crear una función donde los usuarios pueden guardar sus búsquedas favoritas, crear listas de peliculas por ver.
 
+## ¿Cómo Funciona?
+- Se limpió la información obtenida de [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) de [Kaggle](https://www.kaggle.com/), que contenía alrededor de 45.000 filas. Después de la limpieza y la organización de los datos se obtuvieron 42.000 filas no nulas. Hecho en limpiar_datos.py. Se crea un nuevo dataframe después de limpiar los datos y se crea el *.csv con la información.
+- El archivo cargar_datos.py se encarga de leer y cargar el *.csv a un dataframe de Pandas
+- Con Whoosh se creó un esquema para almacenar la información de cada documento/película, luego se indexaron con indexar.py dentro de la carpeta indexdir.
+- La vista de la aplicación se define en buscar.py con la librería de Streamlit. Se importa Whoosh para leer el directorio indexdir y la película ingresada por el usuario procede a buscarse.
+
 Con el Motor de Búsqueda de Películas, los amantes del cine pueden explorar títulos de su interés de manera rápida y conveniente. Este proyecto demuestra mis habilidades en el desarrollo de aplicaciones de búsqueda utilizando Python y herramientas como Pandas y Whoosh.
 
